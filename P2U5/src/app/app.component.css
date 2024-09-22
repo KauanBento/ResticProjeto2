@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #ff66c4;
+    height: 5%;
+}
+
+.header a {
+    margin-top: 4px;
+    margin-left: 2%;
+    font: 20px Ibarra Real Nova;
+}
+
+.content {
+    display: flex;
+    height: 90%;
+    background-color: rgb(231, 243, 243);
+}
+
+.footer {
+    display: flex;
+    height: 5%;
+    background-color: rgba(0, 0, 0, 0.664);
+}
