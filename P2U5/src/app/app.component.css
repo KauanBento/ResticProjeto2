@@ -6,23 +6,46 @@ body {
 .header {
     display: flex;
     background-color: #ff66c4;
-    height: 5%;
+    height: 10vh;
+    /* Usa altura relativa à viewport */
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    height: 80%;
+    /* Ajusta o tamanho da imagem */
 }
 
 .header a {
-    margin-top: 4px;
-    margin-left: 2%;
-    font: 20px Ibarra Real Nova;
+    margin-left: 10px;
+    /* Espaçamento entre o logo e o texto */
+    font: 40px Ibarra Real Nova;
 }
 
 .content {
     display: flex;
-    height: 90%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* Altura ajustada para o conteúdo */
     background-color: rgb(231, 243, 243);
+}
+
+.content h2 {
+    font: 40px Ibarra Real Nova;
+    margin-right: 65%;
 }
 
 .footer {
     display: flex;
-    height: 5%;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    /* Usa altura relativa à viewport */
     background-color: rgba(0, 0, 0, 0.664);
+}
+
+.footer a {
+    font: 20px Ibarra Real Nova;
 }
