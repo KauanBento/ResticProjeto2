@@ -18,6 +18,7 @@ body {
 }
 
 .header a {
+    color: white;
     margin-left: 10px;
     /* Espaçamento entre o logo e o texto */
     font: 40px Ibarra Real Nova;
